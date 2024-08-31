@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sebastian Biju's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #007acc;
+            color: white;
+        }
+        header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 5px 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #007acc;
+            transition: background-color 0.3s ease;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #007acc;
+            padding-bottom: 5px;
+        }
+        section p {
+            margin-bottom: 15px;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skills-list p {
+            flex: 1 1 45%;
+            background-color: #e7f3ff;
+            padding: 10px;
+            margin: 5px;
+            border-left: 5px solid #007acc;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background-color: #e7f3ff;
+            border-radius: 8px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #007acc;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #005a99;
+            transition: background-color 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="1719244674941 (1).jpeg" alt="Sebastian Biju">
+        <h1>Sebastian Biju</h1>
+        <p>Computer Science and Engineering Student</p>
+        <p><a href="http://www.linkedin.com/in/sebastian-biju-9699b0269" style="color: white;">LinkedIn Profile</a></p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>About Me</h2>
+        <p>Hi, I'm Sebastian Biju, a Computer Science and Engineering student passionate about programming and web development. I enjoy creating innovative solutions and continuously learning new technologies.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>B.Tech in Computer Science and Engineering</strong><br>
+        Amal Jyothi College of Engineering<br>
+        CGPA: 8.0 | Graduating in 2025</p>
+        <p><strong>Senior Secondary Education</strong><br>
+        St. Francis School, Vadakkencherry<br>
+        Percentage: 93% (2021)</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <p><strong>Programming Languages:</strong> Python, Java, C, C++</p>
+            <p><strong>Web Development:</strong> HTML, CSS, Flask</p>
+            <p><strong>AI/ML:</strong> TensorFlow, OpenCV</p>
+            <p><strong>Database:</strong> MySQL, Oracle</p>
+            <p><strong>Tools:</strong> Git, Docker, Jenkins</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-form">
+            <form action="#">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
